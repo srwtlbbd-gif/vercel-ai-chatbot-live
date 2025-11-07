@@ -18,4 +18,11 @@ export const chatModels: ChatModel[] = [
     description:
       "OpenAI's advanced reasoning model for complex problems",
   },
+  // Optional: Anthropic Claude models (requires ANTHROPIC_API_KEY)
+  // Uncomment below to enable Claude support:
+  // {
+  //   id: "claude-sonnet",
+  //   name: "Claude 3.5 Sonnet",
+  //   description: "Anthropic's balanced model for most tasks",
+  // },
 ];
